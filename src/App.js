@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
+        <Route path="/:type/:id" element={<PetDetailsPage />} />
         <Route path="/:type" element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
       </Routes>

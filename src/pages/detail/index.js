@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { getPetDetails } from '../../api/petfinder';
 import Hero from '../../components/hero';
 
 const PetDetailsPage = () => {
+  const { type, id } = useParams()
+  
   const [data, setData] = useState();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const id = '51322435'; // <--- Update me!
 
   useEffect(() => {
     async function getPetsData() {
