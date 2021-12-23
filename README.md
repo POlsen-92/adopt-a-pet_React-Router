@@ -15,9 +15,6 @@
   - [License](#license)
   - [Credits](#credits)
   - [Creators](#creators)
-  
-  ## Usage
-
 
   ## Contributing
 <details>
