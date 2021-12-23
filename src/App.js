@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
+        <Route path="/pet-details-not-found" element={<PetDetailsNotFound />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/:type/:id" element={<PetDetailsPage />} />
         <Route path="/:type" element={<HomePage />} />
