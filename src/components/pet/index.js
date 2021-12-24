@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Pet = ({ animal }) => {
   return (
-    <a
+    <Link
       key={animal.id}
       href={`/${animal.type.toLowerCase()}/${animal.id}`}
       className="pet"
@@ -24,7 +25,7 @@ const Pet = ({ animal }) => {
         <p>Color: {animal.colors.primary}</p>
         <p>Gender: {animal.gender}</p>
       </article>
-    </a>
+    </Link>
   );
 };
 

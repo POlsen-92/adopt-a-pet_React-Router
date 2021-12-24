@@ -58,7 +58,7 @@ const HomePage = () => {
                 <p>Color: {animal.colors.primary}</p>
                 <p>Gender: {animal.gender}</p>
               </article>
-            </Link> 
+            </Link>
           ))}
         </div>
       ) : (
