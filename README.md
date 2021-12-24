@@ -4,9 +4,9 @@
   
   ## Description
   
-    The Adopt a Pet web project comes from CodeCademy's [Learn React Router](https://www.codecademy.com/learn/learn-react-router) Course and I've posted it here to continue my learning and have a place to return to for reference. In the original CodeCademy course they used React-Router-Dom V5 and as V6 implemented a lot of changes I decided to complete it in V6 and utilized the documents for React Router to do so. 
+  The Adopt a Pet web project comes from CodeCademy's [Learn React Router](https://www.codecademy.com/learn/learn-react-router) Course and I've posted it here to continue my learning and have a place to return to for reference. In the original CodeCademy course they used React-Router-Dom V5 and as V6 implemented a lot of changes I decided to complete it in V6 and utilized the documents for React Router to do so. 
 
-    Some large differences I found was in utilizing Routers instead of Switch, useNavigate instead of useHistory, Navigate instead of Redirect and more. I utilized this project to orient myself to the many changes found in version 6 of react router as I initially learned react router with version 5.
+  Some large differences I found was in utilizing Routers instead of Switch, useNavigate instead of useHistory, Navigate instead of Redirect and more. I utilized this project to orient myself to the many changes found in version 6 of react router as I initially learned react router with version 5.
 
 
   ## Table Of Contents
